@@ -1,0 +1,11 @@
+body {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  overflow: hidden;
+}
