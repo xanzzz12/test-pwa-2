@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>Modern PWA - My Profile</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="card text-center shadow-lg">
+      <div class="card-header bg-primary text-white">
+        <h1><i class="fas fa-user-circle"></i> My Profile</h1>
+      </div>
+      <div class="card-body">
+        <img src="profile.jpg" alt="Profile Picture" class="rounded-circle img-thumbnail mb-3" width="150">
+        <h3>Nama Kamu</h3>
+        <p>Software Engineer | Gamer | Mahasiswa</p>
+        <button class="btn btn-success mt-3" id="aboutBtn">
+          <i class="fas fa-info-circle"></i> About Me
+        </button>
+      </div>
+      <div class="card-footer text-muted">
+        <p>© 2025 My Modern PWA</p>
+      </div>
+    </div>
+    <div id="aboutModal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">About Me</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Halo! Saya adalah developer yang gemar belajar teknologi baru. Saya juga hobi bermain game seperti Valorant dan Mobile Legends.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
